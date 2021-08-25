@@ -6,6 +6,8 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(Poker-Hand-Evaluator)
 
 add_executable(Poker_Hand_Evaluator
-        test_card.cpp
+        test_evaluator.cpp
         evaluator/Card.h
-        evaluator/Card.cpp)
+        evaluator/Card.cpp
+        evaluator/Evaluator.h
+        evaluator/Evaluator.cpp)
