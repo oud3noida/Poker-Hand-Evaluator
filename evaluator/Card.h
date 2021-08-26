@@ -20,13 +20,13 @@ struct Card {
     Card(string formatted);
     Card(int number, int suit);
 
-    int formatted_to_number(char c);
+    static int formatted_to_number(char c);
 
-    int formatted_to_suit(char c);
+    static int formatted_to_suit(char c);
 
-    char number_to_formatted(int number);
+    static char number_to_formatted(int number);
 
-    char suit_to_formatted(int suit);
+    static char suit_to_formatted(int suit);
 };
 
 
